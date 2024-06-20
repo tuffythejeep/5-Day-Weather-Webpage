@@ -28,6 +28,35 @@
       <p>Get the current and future weather conditions for multiple cities.</p>
     </header>
 
+    <main class="ui container">
+      <div class="ui grid">
+        <div class="col-12 col-md-4 four wide column">
+          <div class="ui card card-custom">
+            <div class="content header card-header-custom">Search By City</div>
+            <div class="content card-body-custom">
+              <form id="city-form">
+                <label class="form-label form-label-custom" for="cityname">City Name</label>
+                <input
+                  name="cityname"
+                  id="cityname"
+                  type="text"
+                  autofocus="true"
+                  class="form-input form-input-custom"
+                />
+                <button type="submit" class="ui button btn-custom">Get Weather</button>
+              </form>
+            </div>
+          </div>
+
+        <div class="ui card card-custom">
+          <div class="content header card-header-custom">Search History</div>
+            <div id="history-buttons" class="content card-body-custom">
+              <!-- Buttons for search history will be dynamically added here -->
+            </div>
+          </div>
+        </div>
+
+        
 
 
     <script src="./assets/js/script.js"></script>
