@@ -28,4 +28,24 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
 }
 
+main {
+  margin: 20px auto;
+  width: 94%;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.btn-custom {
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  color: var(--primary)
+  background-color var(--light-dark);
+  border: none;
+  box-shadow: 3px 3px var(--dark);
+  transform: translate(-1px, -1px);
+}
 
