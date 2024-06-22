@@ -42,10 +42,93 @@ p {
   text-decoration: none;
   padding: 10px 20px;
   border-radius: var(--border-radius);
-  color: var(--primary)
-  background-color var(--light-dark);
+  color: var(--primary);
+  background-color: var(--light-dark);
   border: none;
   box-shadow: 3px 3px var(--dark);
   transform: translate(-1px, -1px);
 }
 
+.btn-custom:hover {
+  background-color: var(--tertiary); 
+  transform: translate(0, 0);
+  box-shadow: 2px 2px var(--dark);
+}
+
+.card-custom {
+  border: 3px solid var(--dark);
+  border-radius: var(--border-radius);
+  margin-bottom: 20px;
+}
+
+.card-header-custom {
+  background-color: var(--dark-blue);
+  color: var(--primary);
+  padding: 2.5%;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.card-body-custom {
+  padding: 2.5%;
+}
+
+.forecast-card {
+  background-color: var(--royal-blue);
+  color: white;
+}
+
+.form-label-custom, .form-input-custom, .form-textarea-custom {
+  display: block;
+  width: 100%;
+  padding: 3%;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  border: 2px solid var(--light-dark);
+  border-radius: var(--border-radius);
+}
+
+.search-btn-custom {
+  background-color: var(--light-blue);
+  color: var(--dark);
+}
+
+.city-btn-custom {
+  background-color: var(--grey);
+  color: var(--primary);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Semantic UI overrides */
+.ui.container {
+  padding: 2rem;
+  background-color: var(--secondary);
+  border-radius: var(--border-radius);
+}
+
+.ui.header {
+  color: var(--dark);
+}
+
+.ui.button.btn-custom {
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  background-color: var(--light-dark);
+}
+
+.ui.card.card-custom {
+  border: 3px solid var(--dark);
+  border-radius: var(--border-radius);
+}
+
+.ui.card .content.header.card-header-custom {
+  background-color: var(--dark-blue);
+  color: var(--primary);
+}
+
+.ui.card .content.card-body-custom {
+  padding: 2.5%;
+}
