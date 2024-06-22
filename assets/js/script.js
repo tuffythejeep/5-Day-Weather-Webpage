@@ -82,4 +82,20 @@ const displayWeather = function (data, city) {
     `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
   );
 
-  
+  const tempEl = document.createElement("p");
+  tempEl.textContent = `Temperature: ${data.main.temp} °F`;
+
+  const humidityEl = document.createElement("p");
+  humidityEl.textContent = `Humidity: ${data.main.humidity}%`;
+
+  const windEl = document.createElement("p");
+  windEl.textContent = `Wind Speed: ${data.wind.speed} mph`;
+
+  weatherEl.appendChild(dateEl);
+  weatherEl.appendChild(iconEl);
+  weatherEl.appendChild(tempEl);
+  weatherEl.appendChild(humidityEl);
+  weatherEl.appendChild(windEl);
+
+  weatherContainerEl.appendChild(weatherEl);
+};
