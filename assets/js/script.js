@@ -99,3 +99,50 @@ const displayWeather = function (data, city) {
 
   weatherContainerEl.appendChild(weatherEl);
 };
+
+const displayForecast = function (data) {
+  forecastContainerEl.innerHTML = "";
+
+  for (let i = 0; i < data.list.length; i += 8) {
+    const forecast = data.list[i];
+    const forecastEl = document.createElement("div");
+    forecastEl.classList = "list-item flex-column";
+
+    const dateEl = document.createElement("h3");
+    dateEl.textContent = new Date(forecast.dt_txt).toLocaleDateString();
+
+    const iconEl = document.createElement("img");
+    iconEl.setAttribute(
+      "src",
+      `https://openweathermap.org/img/wn/${forecast.weather[0].icon}.png`
+    );
+
+    const tempEl = document.createElement("p");
+    tempEl.textContent = `Temperature: ${forecast.main.temp} °F`;
+
+    const humidityEl = document.createElement("p");
+    humidityEl.textContent = `Humidity: ${forecast.main.humidity}%`;
+
+    const windEl = document.createElement("p");
+    windEl.textContent = `Wind Speed: ${forecast.wind.speed} mph`;
+
+    forecastEl.appendChild(dateEl);
+    forecastEl.appendChild(iconEl);
+    forecastEl.appendChild(tempEl);
+    forecastEl.appendChild(humidityEl);
+    forecastEl.appendChild(windEl);
+
+    forecastContainerEl.appendChild(forecastEl);
+  }
+};
+
+const saveCityToHistory = function (city) {
+  let cities = JSON.parse(localStorage.getItem("cities")) || [];
+
+  if (!cities.includes(city)) {
+    cities.push(city);
+    localStorage.setItem("cities", JSON.stringify(cities));
+    displayCityHistory();
+  }
+};
+
