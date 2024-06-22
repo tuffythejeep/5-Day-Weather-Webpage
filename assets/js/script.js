@@ -47,3 +47,39 @@ const getCityWeather = function (city) {
     });
 };
 
+const getCityForecast = function (city) {
+  const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=imperial`;
+
+  fetch(apiUrl)
+    .then(function (response) {
+      if (response.ok) {
+        response.json().then(function (data) {
+          displayForecast(data);
+        });
+      } else {
+        alert(`Error: ${response.statusText}`);
+      }
+    })
+    .catch(function (error) {
+      alert("Unable to connect to OpenWeather");
+    });
+};
+
+const displayWeather = function (data, city) {
+  weatherContainerEl.innerHTML = "";
+
+  citySearchTerm.textContent = city;
+
+  const weatherEl = document.createElement("div");
+  weatherEl.classList = "list-item flex-column";
+
+  const dateEl = document.createElement("h3");
+  dateEl.textContent = new Date().toLocaleDateString();
+
+  const iconEl = document.createElement("img");
+  iconEl.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
+  );
+
+  
