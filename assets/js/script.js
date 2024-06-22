@@ -27,3 +27,23 @@ const buttonClickHandler = function (event) {
   }
 };
 
+const getCityWeather = function (city) {
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+
+  fetch(apiUrl)
+    .then(function (response) {
+      if (response.ok) {
+        response.json().then(function (data) {
+          displayWeather(data, city);
+          saveCityToHistory(city);
+          getCityForecast(city);
+        });
+      } else {
+        alert(`Error: ${response.statusText}`);
+      }
+    })
+    .catch(function (error) {
+      alert("Unable to connect to OpenWeather");
+    });
+};
+
