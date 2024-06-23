@@ -32,11 +32,15 @@ WHEN I click on a city in the search history
 
 ## You can find my deployed page here :
 
-https://tuffythejeep.github.io/the-task-board-to-end-all-task-boards/
-and my repository page here:
+https://tuffythejeep.github.io/5-Dias-De-Clima/
+
+## and my repository page here:
 
 https://github.com/tuffythejeep/5-Dias-De-Clima
-Here is a picture of my deployed page: image
+
+## Here is a picture of my deployed page:
+
+
 
 ## Installation
 N/A
