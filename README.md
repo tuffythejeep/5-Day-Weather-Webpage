@@ -67,11 +67,13 @@ https://google.com/
 
 https://bing.com/
 
-I also used these code and other material for data requests and responses, data retrieval, styling, and other things:
+I also used these sites for code and other material, like data requests and responses, data retrieval, styling, and other things:
 
 https://openweathermap.org/forecast5
 
 https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/
+
+https://semantic-ui.com/
 
 I referenced code (HTML and CSS) from the UT provided lessons, however, I wrote all my own changes, edits, tweaks, and versions of my webpage, html, and styles.
 
