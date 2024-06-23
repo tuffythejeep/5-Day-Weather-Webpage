@@ -4,7 +4,9 @@ A 5 Day Weather Webpage.
 ## Description
 This repository contains my solution for the Module 6 Challenge - Server-Side APIs: Weather Dashboard
 
-In order for my work to show what I can do, I used HTML, CSS, JavaScript to retrieve weather data for cities. I had to register for an API key from openweathermpa.org, too.
+In order for my work to show what I can do, I used HTML, CSS, JavaScript to retrieve weather data for cities. 
+
+I had to register for an API key from openweathermpa.org, too.
 
 Subsequently, I was able to say that the following User Story met its Acceptance Criteria (A/C):
 
@@ -33,7 +35,7 @@ WHEN I click on a city in the search history
 https://tuffythejeep.github.io/the-task-board-to-end-all-task-boards/
 and my repository page here:
 
-https://github.com/tuffythejeep/the-task-board-to-end-all-task-boards
+https://github.com/tuffythejeep/5-Dias-De-Clima
 Here is a picture of my deployed page: image
 
 ## Installation
@@ -67,9 +69,7 @@ https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/
 
 I referenced code (HTML and CSS) from the UT provided lessons, however, I wrote all my own changes, edits, tweaks, and versions of my webpage, html, and styles.
 
-I commented and committed to my repo heavily.
-
-I was able to deploy without issue, once I referenced all files properly and landed urls in the appropriate places.
+I commented and committed to my repo heavily, and I was able to deploy without issue, once I referenced all files properly and landed urls in the appropriate places.
 
 ## License
 MIT License is listed in my repo. Please review if you intend to ever use anything I created within this page.
