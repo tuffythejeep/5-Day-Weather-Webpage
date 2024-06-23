@@ -6,7 +6,7 @@ This repository contains my solution for the Module 6 Challenge - Server-Side AP
 
 In order for my work to show what I can do, I used HTML, CSS, JavaScript, and Server Side APIs to retrieve weather data for cities.
 
-I had to register for an API key from openweathermpa.org, too.
+I had to register for an API key from openweathermpa.org, too. Local Storage is being used to store persistent data.
 
 Subsequently, I was able to say that the following User Story met its Acceptance Criteria (A/C):
 
