@@ -4,22 +4,28 @@ A 5 Day Weather Webpage.
 ## Description
 This repository contains my solution for the Module 6 Challenge - Server-Side APIs: Weather Dashboard
 
-In order for my work to show what I can do, I used HTML, CSS, JavaScript to:
+In order for my work to show what I can do, I used HTML, CSS, JavaScript to retrieve weather data for cities. I had to register for an API key from openweathermpa.org, too.
 
-Added a function which lists project tasks, displayed in columns representing the task progress state (Not Yet Started, In Progress, Completed)
--- Each task is color coded to indicate whether it is nearing the deadline (yellow) or is overdue (red)
+Subsequently, I was able to say that the following user story met its Acceptance Criteria:
 
--- When I click on the button to define a new task, I can enter the title, description and deadline date for the new task into a modal dialog.
+- AS A traveler I want to see the weather outlook for multiple cities, so THAT I can plan a trip accordingly.
 
--- When I click the save button for that task, the properties for that task are saved in localStorage.
+GIVEN a weather dashboard with form inputs:
 
--- When I drag a task to a different progress column, then the task's progress state is updated accordingly and will stay in the new column after refreshing.
+- WHEN I search for a city
+- THEN I am presented with current and future conditions for that city and that city is added to the search history
 
--- When I click the delete button for a task, the task is removed from the task board and will not be added back after refreshing.
+- WHEN I view current weather conditions for that city
+- THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
 
--- When I refresh the page, the saved tasks persist.
+- WHEN I view future weather conditions for that city
+- THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 
-You can find my deployed page here :
+- WHEN I click on a city in the search history
+- THEN I am again presented with current and future conditions for that city
+
+
+## You can find my deployed page here :
 
 https://tuffythejeep.github.io/the-task-board-to-end-all-task-boards/
 and my repository page here:
@@ -50,11 +56,17 @@ https://google.com/
 
 https://bing.com/
 
+I also used these code and other material for data requests and responses, data retrieval, styling, and other things:
+
+https://openweathermap.org/forecast5
+
+https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/
+
 I referenced code (HTML and CSS) from the UT provided lessons, however, I wrote all my own changes, edits, tweaks, and versions of my webpage, html, and styles.
 
 I commented and committed to my repo heavily.
 
-I was able to deploy without issue, once I copied all HTML and css files properly.
+I was able to deploy without issue, once I referenced all files properly and landed urls in the appropriate places.
 
 ## License
 MIT License is listed in my repo. Please review if you intend to ever use anything I created within this page.
