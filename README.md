@@ -40,6 +40,8 @@ https://github.com/tuffythejeep/5-Dias-De-Clima
 
 ## Here is a picture of my deployed page:
 
+![image](https://github.com/tuffythejeep/5-Dias-De-Clima/assets/167649421/d4b9f8c3-0385-4655-ae2d-a2846e706842)
+
 
 
 ## Installation
