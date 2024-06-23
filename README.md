@@ -6,22 +6,25 @@ This repository contains my solution for the Module 6 Challenge - Server-Side AP
 
 In order for my work to show what I can do, I used HTML, CSS, JavaScript to retrieve weather data for cities. I had to register for an API key from openweathermpa.org, too.
 
-Subsequently, I was able to say that the following user story met its Acceptance Criteria:
+Subsequently, I was able to say that the following User Story met its Acceptance Criteria (A/C):
 
-- AS A traveler I want to see the weather outlook for multiple cities, so THAT I can plan a trip accordingly.
+## User Story
+AS a traveler I want to see the weather outlook for multiple cities, so THAT I can plan a trip accordingly.
+
+## Acceptance Criteria (A/C)
 
 GIVEN a weather dashboard with form inputs:
 
-- WHEN I search for a city
+WHEN I search for a city
 - THEN I am presented with current and future conditions for that city and that city is added to the search history
 
-- WHEN I view current weather conditions for that city
+WHEN I view current weather conditions for that city
 - THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
 
-- WHEN I view future weather conditions for that city
+WHEN I view future weather conditions for that city
 - THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 
-- WHEN I click on a city in the search history
+WHEN I click on a city in the search history
 - THEN I am again presented with current and future conditions for that city
 
 
