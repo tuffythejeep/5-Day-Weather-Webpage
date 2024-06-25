@@ -67,7 +67,9 @@ https://google.com/
 
 https://bing.com/
 
-I also used these sites for code and other material, like data requests and responses, data retrieval, styling, and other things:
+- AI technology was used to debug errors and to help me try and resolve styling issues. AI was also used to ensure my edits, adjustments, changes, and tweaks were as succinct as possible.
+
+- I also used these sites for code and other material, like data requests and responses, data retrieval, styling, and other things:
 
 https://openweathermap.org/forecast5
 
